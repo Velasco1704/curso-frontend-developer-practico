@@ -1,0 +1,13 @@
+.form a {
+  color: var(--hospital-green);
+  font-size: var(--sm);
+  text-align: center;
+  margin-bottom: 3.25rem;
+}
+
+@media (width <= 640px) {
+  .form-container {
+    height: 95vh;
+    justify-content: space-between;
+  }
+}

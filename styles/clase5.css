@@ -1,0 +1,5 @@
+.value {
+  color: var(--very-light-pink);
+  font-size: var(--md);
+  margin: 0.5rem 0 2rem 0;
+}

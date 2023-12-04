@@ -1,0 +1,26 @@
+.email-image {
+  margin: 0 auto;
+  width: 8.25rem;
+  height: 8.25rem;
+  background: var(--text-input-field);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.email-image img {
+  width: 5rem;
+}
+
+.resend {
+  margin: 0 auto;
+  font-size: var(--sm);
+}
+.resend span {
+  color: var(--very-light-pink);
+}
+
+.resend a {
+  color: var(--hospital-green);
+}

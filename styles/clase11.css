@@ -1,0 +1,72 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.menu {
+  width: 2rem;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.links-container {
+  display: none;
+}
+
+.user-email {
+  display: none;
+}
+
+.cart {
+  width: 2rem;
+}
+
+@media (width >= 940px) {
+  .header {
+    padding: 1rem 3rem;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .links-container {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .link {
+    color: var(--very-light-pink);
+    border: 0.063em solid transparent;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+      color: var(--hospital-green);
+      border-color: var(--hospital-green);
+    }
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .user-email {
+    display: inline;
+    color: var(--very-light-pink);
+  }
+}

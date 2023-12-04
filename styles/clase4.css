@@ -1,0 +1,24 @@
+.title-my-account {
+  text-align: start;
+  margin-bottom: 1.875rem;
+  font-weight: bold;
+}
+
+.form div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-name,
+.input-email-address,
+.input-password {
+  margin-bottom: 1.375rem;
+}
+
+@media (width <= 640px) {
+  .form {
+    height: 90vh;
+    justify-content: space-between;
+  }
+}

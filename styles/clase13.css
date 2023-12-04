@@ -1,0 +1,94 @@
+.checkout {
+  width: 100%;
+  max-width: 30rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.title-container button {
+  cursor: pointer;
+}
+
+.title-container h1 {
+  font-weight: bold;
+  font-size: var(--lg);
+}
+
+.arrow {
+  width: 1rem;
+  transform: rotate(180deg);
+}
+
+.orders-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.order {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.image-container p {
+  color: var(--very-light-pink);
+}
+
+.order img {
+  object-fit: cover;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 2rem;
+}
+
+.order-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.order-info p:first-child {
+  font-weight: bold;
+}
+
+.remove {
+  cursor: pointer;
+  border-radius: 50%;
+  color: red;
+}
+
+.total-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: var(--text-input-field);
+  padding: 2rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.button-checkout {
+  cursor: pointer;
+  background: var(--hospital-green);
+  color: var(--white);
+  padding: 1rem 0;
+  border-radius: 0.5rem;
+}
